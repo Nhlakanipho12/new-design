@@ -1,0 +1,64 @@
+/* Services Main */
+
+.systems-solutions {
+	width: 100%;
+	height: auto;
+	min-height: 668px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.sys-headings {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.sys-solutions {
+	width: 50%;
+	height: 500px;
+	text-align: left;
+	padding: 80px;
+	float: left;
+}
+
+ul {
+	list-style-image: url('tick.png');
+	margin-top: 40px;
+	margin-left: 20px;
+	line-height: 2;
+}
+
+.solutions-link {
+	color: orange;
+	margin-top: 40px;
+	text-decoration: none;
+	display: block;
+	width: 100%
+}
+
+.solutions-link:hover {
+	font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 1025px) {
+	.heading-main {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+#sys-solimg {
+	display:none;
+}
+.sys-solutions {
+	width: 100%;
+	clear: left;
+	height: auto;
+}
+
+}

@@ -1,0 +1,285 @@
+main {
+	width: 100%;
+	height: 720px;
+}
+
+.main-content {
+	width: 50%;
+	height: 720px;
+	float: right;
+}
+
+.main-content a {
+	display: inline-block;
+	color: white;
+	background-color: #f27f3e;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+.main-content a:hover {
+	background-color: #121a27;
+}
+
+#main-content1 {
+	background-image: url('Images/FbadU2AXEAAg-82.jpg');
+	background-size: cover;
+}
+
+#main-content1 h1 {
+	color: white;
+	display:none;
+}
+
+#main-content1 p {
+	color: white;
+	display:none;
+}
+
+#main-content1 a {
+	display:none;
+	color: white;
+	background-color: #f27f3e;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+#main-content2 {
+	padding: 80px;
+	padding-top: 270px;
+}
+
+#main-content2 h1 {
+	color:#121a27;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	#main-content2 {
+		display: none;
+	}
+	
+	#main-content1 {
+		width: 100%;
+		padding: 20px;
+	    padding-top: 270px;
+		background-image: url('Images/FbadU2AXEAAg-822.jpg');
+	    background-size: cover;
+	}
+	
+	#main-content1 h1 {
+	   display:block;
+    }
+
+    #main-content1 p {
+	   display:block;
+    }
+
+    #main-content1 a {
+	display:inline-block;
+    }
+	
+	#main-content1 a:hover {
+	background-color: #121a27;
+	}
+}
+
+/* Article CSS*/
+
+.AboutIT {
+	width: 1200px;
+	min-height: 200px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.more-about {
+	display: inline-block;
+	color: white;
+	background-color: #f27f3e;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.more-about:hover {
+	background-color: #121a27;
+}
+
+.about-sec {
+	display: inline-block;
+	color: #f27f3e;
+	border-radius: 20px;
+	padding: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-decoration: none;
+	border: 1px solid #f27f3e;
+}
+
+.about-sec:hover {
+	background-color: #121a27;
+	color: white;
+	border: none;
+}
+@media screen and (max-width: 1200px) {
+	.AboutIT {
+		width: 100%;
+		height: auto;
+		padding-left:10px;
+		padding-right:10px;
+		text-align: left;
+	}
+}
+
+
+/* Services Previes */
+
+
+.servicesPreview {
+	width: 1200px;
+	min-height: 400px;
+	margin: 0 auto;
+
+}
+
+.previewSections {
+	width: 400px;
+	min-height: 400px;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	padding-top: 40px;
+}
+
+
+
+.previewSections h1 {
+	margin-top: 20px;
+}
+
+.previewSections p {
+	margin-top: 20px;
+}
+
+.previewSections:hover {
+	background-color: #e87923;
+	color: white;
+}
+
+.previewSections:hover .learn {
+	color: white;
+}
+
+.learn {
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 30px;
+	color: #e87923;
+}
+
+.learn:hover {
+	color: #121a27 !important;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+	.servicesPreview {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.previewSections {
+		width: 100%;
+		clear: left;
+	}
+	
+}
+
+
+/* Article Lead */
+
+.flow {
+	width: 100%;
+	min-height: 400px;
+	height: auto;
+	background-color: #f6f6f6;
+	overflow: hidden;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.message-holder {
+	width: 90%;
+	min-height: 500px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 80px;
+
+}
+
+.imgs {
+	width: 30%;
+	height: auto;
+	display: block;
+	float: left;
+}
+
+.flow h1 {
+	display: block;
+	width: 70%;
+	height:auto;
+	padding: 20px;
+	float:left;
+	margin-top: 20px;
+	color:#e87923;
+}
+
+.flow p {
+	display: block;
+	width: 70%;
+	height:auto;
+	padding: 20px;
+	float:left;
+	margin-top: 40px;
+	text-align: justify;
+}
+
+.flow a {
+	color:  #e87923;
+	text-decoration: none;
+	font-weight: bold;
+	width: 70%;
+	height:auto;
+}
+
+.flow a:hover {
+	color: #121a27;
+}
+
+@media screen and (max-width: 1024px) {
+	.flow {
+		padding-top: 40px;
+	}
+	
+	.message-holder {
+		padding-top: 40px;
+	}
+}
